@@ -1,0 +1,93 @@
+{
+  "uuid": "c116cb36885748908d966048e069c6d7",
+  "historyId": "Get by Id",
+  "fullName": "Get by Id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az166-780"
+    },
+    {
+      "name": "feature",
+      "value": "Get Posts"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "regresion"
+    }
+  ],
+  "links": [],
+  "name": "Get by Id",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: OK\n  But was:  0\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: OK\n  But was:  0\n\n   at NUnit.Framework.Assert.ReportFailure(String message)\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)\n   at TestProject3.GetPostsStepDefinitions.ThenIExpectedAValidCodeResponse() in /home/runner/work/SpecFlowReportML/SpecFlowReportML/TestProject3/GetPostsStepDefinitions.cs:line 30\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have an Id with value 1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686021571551,
+      "stop": 1686021571704
+    },
+    {
+      "name": "When  I send I get request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686021571704,
+      "stop": 1686021571770
+    },
+    {
+      "name": "Then  I expected a valid code response",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686021571770,
+      "stop": 1686021571814
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686021571542,
+  "stop": 1686021571818
+}
