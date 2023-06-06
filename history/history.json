@@ -1,0 +1,1 @@
+{"Get by Id":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"60615230136b2833","reportUrl":"https://mloza0591.github.io/SpecFlowReportML/3//#testresult/60615230136b2833","status":"failed","statusDetails":"  Expected: OK\n  But was:  0\n","time":{"start":1686020567839,"stop":1686020568113,"duration":274}}]}}
