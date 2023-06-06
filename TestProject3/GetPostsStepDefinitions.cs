@@ -8,7 +8,7 @@ namespace TestProject3
     [Binding]
     public class GetPostsStepDefinitions
     {
-        RestClient client= new RestClient("http://localhost:3000/");
+        RestClient client= new RestClient("http://34.125.117.44:3000/");
         RestRequest request= new RestRequest("posts/{postid}", Method.Get);
         RestResponse response;
 
